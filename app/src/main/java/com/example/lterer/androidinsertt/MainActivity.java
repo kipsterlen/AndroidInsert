@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Showing Toast message after successfully data submit.
                 Toast.makeText(MainActivity.this,"Data Inserted Successfully into Firebase Database", Toast.LENGTH_LONG).show();
+                pickEditText.setText("");
 
             }
         });
