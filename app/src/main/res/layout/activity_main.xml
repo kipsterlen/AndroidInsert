@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:text="My Games"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:hint="Enter Home Game"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/away"
+        android:hint="Enter Away Game"
+        android:layout_below="@+id/home"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pick"
+        android:hint="Enter Your Pick"
+        android:gravity="center"
+        android:layout_below="@+id/away"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_below="@id/pick"
+        android:text="Submit Your Game"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

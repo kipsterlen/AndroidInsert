@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "538937662913",
+    "firebase_url": "https://androidinsertt.firebaseio.com",
+    "project_id": "androidinsertt",
+    "storage_bucket": "androidinsertt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538937662913:android:c16bea60b749e77d",
+        "android_client_info": {
+          "package_name": "com.example.lterer.androidinsertt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538937662913-e1kubf85t0oh8bfgkhu9h3m33qehnh9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1f_Ri1VpAySM_eNuKaxZf8xznaHoXpYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538937662913-e1kubf85t0oh8bfgkhu9h3m33qehnh9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
