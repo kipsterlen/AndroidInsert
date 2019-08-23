@@ -1,5 +1,7 @@
 package com.example.lterer.androidinsertt;
 
+import android.widget.EditText;
+
 public class StudentDetails {
 
 
